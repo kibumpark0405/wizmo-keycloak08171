@@ -28,7 +28,6 @@
     "vue-router": "^3.4.3",
     "vue2-google-maps": "^0.10.7",
     "vuetify": "^2.6.0",
-    "apexcharts": "^3.41.1",
     "vue-apexcharts": "^1.6.2"
   },
   "devDependencies": {

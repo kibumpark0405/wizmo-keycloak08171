@@ -319,20 +319,20 @@ export default {
 </script>
 <style>
 .one-deps {
-    padding:10px;
+    padding:15px;
     cursor: pointer;
     background-color:
     #1976D2;
     color:black;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 16px;
 }
 .two-deps {
-    padding:10px;
+    padding:15px;
     cursor: pointer;
     background-color:#add6ff;
     color:black;
-    font-size:20px;
+    font-size:14px;
 }
 .one-deps:hover {
     cursor: pointer;

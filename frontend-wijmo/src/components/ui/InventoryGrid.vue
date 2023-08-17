@@ -124,7 +124,6 @@ export default {
                     this.newValue = {
                         'stock': 0,
                         'productId': {},
-                        'productId': {},
                     }
                 }
             }

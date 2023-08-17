@@ -251,6 +251,10 @@ export default {
         border:none;
     }
 
+    .wj-felx-grid .wj-cell {
+        font-size: 14px;
+    }
+
     .wj-cell.wj-state-invalid:not(.wj-header)::after {
         top: -14px;
         border: 14px solid transparent;

@@ -1,8 +1,8 @@
 <template>
     <div style="max-height:80vh;">
-        <div style="position: absolute; top:15px; left:25px;">
-            <div style="opacity:0.7; display: inline-block;">기준정보 &nbsp; ></div>
-            <div style="display: inline-block;">&nbsp; 회사</div>
+        <div class="hierarchy">
+            <div>기준정보 &nbsp; ></div>
+            <div>&nbsp; 회사</div>
         </div>
         <div class="gs-bundle-of-buttons" style="max-height:10vh;">
             <v-btn @click="addNewRow" small color="primary" :disabled="!hasRole('Admin')">

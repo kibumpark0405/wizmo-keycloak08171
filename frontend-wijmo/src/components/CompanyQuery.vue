@@ -7,15 +7,12 @@
         <v-card-text>
             <v-row no-gutters style="margin: 15px 0px -30px -15px;">
                 <v-col style="max-width:140px;">
-                    <div class="search-label">이름</div>
                     <String class="attributes-list" label="이름" v-model="value.parameters.name" :editMode="editMode"/>
                 </v-col>
                 <v-col style="max-width:140px;">
-                    <div class="search-label">Industry</div>
                     <String class="attributes-list" label="Industry" v-model="value.parameters.industry" :editMode="editMode"/>
                 </v-col>
                 <v-col style="max-width:140px;">
-                    <div class="search-label">FoundedDate</div>
                     <Date class="attributes-list" label="FoundedDate" v-model="value.parameters.foundedDate" :editMode="editMode"/>
                 </v-col>
                 <v-col>

@@ -36,7 +36,7 @@ public class SalesOrder  {
     
     
     
-    private SalesType ;
+    private SalesType SalesType ;
     
     
     

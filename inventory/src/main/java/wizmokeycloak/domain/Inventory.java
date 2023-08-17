@@ -22,9 +22,6 @@ public class Inventory {
     @Embedded
     private ProductId productId;
 
-    @Embedded
-    private Class360 productId;
-
     public static InventoryRepository repository() {
         InventoryRepository inventoryRepository = InventoryApplication.applicationContext.getBean(
             InventoryRepository.class
